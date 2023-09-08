@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Player</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e68059c996.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e68059c996.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="music-player">
-            <nav>
-                <div class="circle">
-                    <i class="fa-solid fa-angle-left"></i>
-                </div>
-                <div class="circle">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-            <img src="media/mbonyi.jpeg" class="song-img">
-            <h1>Nina Siri</h1>
-            <p>Israel mbonyi</p>
-        </div>
+      <div class="music-player">
+        <nav>
+          <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+        <img src="media/mbonyi.jpeg" class="song-img" />
+        <h1>Nina Siri</h1>
+        <p>Israel mbonyi</p>
+        <audio controls>
+          <source
+            src="media/Israel_Mbonyi_-_Nina_Siri_(getmp3.pro).mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
     </div>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
