@@ -24,19 +24,20 @@
         <img src="media/mbonyi.jpeg" class="song-img" />
         <h1>Nina Siri</h1>
         <p>Israel mbonyi</p>
-        <audio controls>
+        <audio controls id="song">
           <source
             src="media/Israel_Mbonyi_-_Nina_Siri_(getmp3.pro).mp3"
             type="audio/mpeg"
           />
         </audio>
-        <input type="range" value="0" id="progress">
+        <input type="range" value="0" id="progress" />
         <div class="controls">
           <div><i class="fa-solid fa-backward"></i></div>
-          <div><i class="fa-solid fa-play"></i></div>
+          <div onclick="playPause()">
+            <i class="fa-solid fa-play" id="ctrlIcon"></i>
+          </div>
           <div><i class="fa-solid fa-forward"></i></div>
         </div>
-      
       </div>
     </div>
 
